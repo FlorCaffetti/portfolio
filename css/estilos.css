@@ -10,7 +10,8 @@ body {
     background-size: cover;
 }
 
-#proyectos, #sobre-mi {
+#proyectos,
+#sobre-mi {
     background-image: url(../images/imagensobremi.png);
     background-size: cover;
 }
@@ -89,38 +90,94 @@ p {
 #inicio img {
     height: 400px;
 }
-#inicio img:hover{
+
+#inicio img:hover {
     height: 410px;
 }
-.cohete{
+
+.cohete {
     height: 410px;
 }
-#inicio p{
+
+#inicio p {
     color: white;
     font-size: 17px;
     border: 1px white solid;
     border-radius: 15px;
     font-weight: 600;
 }
-.foto-perfil{
+
+.foto-perfil {
     border-radius: 600px;
     height: 300px;
 }
 
-#contacto footer, #inicio footer {
+#stack-tecnologico {
+    background: linear-gradient(90deg, rgba(20, 80, 130, 1) 0%, rgba(70, 130, 180, 1) 50%, rgba(120, 180, 230, 1) 100%);
+}
+
+#stack-tecnologico .tecnologia {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 182px;
+}
+
+#stack-tecnologico h2 {
+    font-size: 24px;
     color: white;
 }
 
-#contacto footer a, #inicio footer a {
+#stack-tecnologico h3 {
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+}
+
+#stack-tecnologico .tecnologia img {
+    height: 60px;
+}
+
+#experiencia h2 {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+#experiencia h3 {
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#experiencia h4 {
+    font-size: 17px;
+   color: white;
+}
+
+#experiencia h5 {
+   font-size: 14px;
+   color: grey;
+}
+
+#contacto footer,
+#inicio footer {
     color: white;
 }
 
-#contacto footer .fa-github, #inicio footer .fa-github {
+#contacto footer a,
+#inicio footer a {
+    color: white;
+}
+
+#contacto footer .fa-github,
+#inicio footer .fa-github {
     font-size: 30px;
     color: white;
 }
 
-#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in {
+#contacto footer .fa-linkedin-in,
+#inicio footer .fa-linkedin-in {
     color: white;
     background-color: none;
     font-size: 20px;
@@ -169,7 +226,8 @@ p {
         background-size: contain;
         background-repeat: none;
     }
-    #inicio p{
+
+    #inicio p {
         color: steelblue;
         font-size: 15px;
         border: 1px steelblue solid;
